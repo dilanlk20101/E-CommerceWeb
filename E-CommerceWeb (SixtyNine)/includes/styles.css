@@ -1,0 +1,69 @@
+/* Custom styles for your navigation bar */
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(135deg, #ff6b6b, #1e90ff); /* Gradient background */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional box shadow for a professional look */
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+  text-align: center; /* Center the text within the brand */
+}
+  
+  /* Navigation Links */
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+    font-size: 1.1rem;
+    padding: 0.3rem 0;
+    letter-spacing: 1px;
+  }
+  
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #1e90ff;
+    transform: scale(1.1);
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
+  /* User Info */
+  .user-info {
+    color: #fff;
+    text-align: right;
+  }
+  

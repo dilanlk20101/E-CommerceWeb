@@ -1,0 +1,82 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    /* background-color: #fff;
+    border-radius: 10px;
+    padding: 20px; */
+    margin-top: 20px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  }
+  
+  /* Navigation bar styles */
+  .navbar {
+    background-color: #1e90ff;
+    border-radius: 10px;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  .nav-link:hover {
+    color: #ff6b6b !important;
+  }
+  
+  /* Form styles */
+  form {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  form h3 {
+    font-weight: bold;
+    color: #ff6b6b;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+    border: none;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  form button {
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #ff6b6b;
+  }
+  
+  /* Link styles */
+  form a {
+    color: #ff6b6b;
+    text-decoration: none;
+  }
+  
+  form a:hover {
+    text-decoration: underline;
+    color: #1e90ff;
+  }
+  

@@ -1,0 +1,53 @@
+/* General styles for your entire page */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Background color for the entire page */
+  }
+  
+/*   .container {
+    background-color: #fff; 
+    border-radius: 10px; 
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  } */
+  
+  /* Login form styles */
+  
+  .form-control {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .alert {
+    margin-top: 10px;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(135deg, #ff6b6b, #1e90ff); /* Button gradient background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #1e90ff, #ff6b6b); /* Hover gradient background */
+    transform: scale(1.05);
+  }
+  
+  /* Additional CSS for links */
+  
+  a.orange {
+    color: #ff6b6b;
+  }
+  
+  a.orange:hover {
+    color: #e74c3c;
+  }
+  
